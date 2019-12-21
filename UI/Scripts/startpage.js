@@ -2,8 +2,8 @@ var canvas;
 var ctx;
 function gameLoop() {
     requestAnimationFrame(gameLoop);
-    ctx.fillStyle = "blue";
-    ctx.fillRect(0, 0, 50, 100);
+    ctx.fillStyle = "green";
+    ctx.fillRect(0, 100, 300, 50);
 }
 window.onload = function () {
     canvas = document.getElementById('canvas');
