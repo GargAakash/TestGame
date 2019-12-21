@@ -1,5 +1,5 @@
 function greeter(person) {
-    return "Hello, " + person;
+    alert(person);
 }
 var user = "Jane User";
-document.body.textContent = greeter(user);
+greeter(user);
